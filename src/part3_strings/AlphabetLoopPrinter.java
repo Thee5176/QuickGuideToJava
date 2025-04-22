@@ -16,11 +16,9 @@ public class AlphabetLoopPrinter {
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         // i starting position
         for(int i=0; i<alphabet.length(); i++){
-            String output = "";
-            for(int j=0; j<alphabet.length(); j++){
-                int index = (i+j)%26;
-                output += alphabet.charAt(index);
-            }
+            String head = alphabet.substring(i);
+            String tail = alphabet.substring(0,i);
+            String output = head + tail;
             System.out.println(output);
         }
     }

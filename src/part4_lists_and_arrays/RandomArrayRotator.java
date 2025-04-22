@@ -3,7 +3,7 @@ package part4_lists_and_arrays;
 import java.util.Arrays;
 import java.util.Random;
 
-//https://www.brianheinold.net/java/java_book.html#sec_varloopifexercises
+// https://www.brianheinold.net/java/java_book.html#sec_varloopifexercises
 //8.4.77 generate random array sets of 50 numbers and rotate them once
 public class RandomArrayRotator {
     public static void main(String[] args){
