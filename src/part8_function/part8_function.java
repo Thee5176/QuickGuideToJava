@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class part8_function {
-    // source - https://www.brianheinold.net/java/java_book.html#sec_functionexercises
-    // 147 billing with tips
+    //https://www.brianheinold.net/java/java_book.html#sec_functionexercises
+    //8.8.147 billing with tips
     private static double getBillTotal(double bill, double tipPercent){
         return bill * (1 + tipPercent);
     }
@@ -22,7 +22,7 @@ public class part8_function {
         }
         return inverseList.toString();
     }
-    //163 square root estimator
+    //8.8.163 square root estimator
     private static double estimateSquareRoot(double n){
         final double accuracy = 10e-10d;
 
@@ -37,7 +37,7 @@ public class part8_function {
         return x;
     }
 
-    //170 convert integer Base10 to Base5
+    //8.8.170 convert integer Base10 to Base5
     private static String convertToBaseN(int number, int base){
         StringBuilder BaseN = new StringBuilder();
 
